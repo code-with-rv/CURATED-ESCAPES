@@ -1,0 +1,953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Curated Escapes & Portfolio — Beyond the Ordinary</title>
+  <meta name="description" content="Off Grid / Curated Escapes. Field Notes Vol. 08 — High road expeditions, coastal retreats, and cultural stays built from the Figma community design." />
+
+  <!-- Google Fonts: Bebas Neue, Barlow Condensed, Playfair Display, Plus Jakarta Sans, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,600;0,700;0,800;0,900;1,700&family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,400&family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body class="theme-dark">
+
+  <!-- Top Global Floating Control Bar -->
+  <header class="global-navbar" id="global-nav">
+    <div class="nav-brand">
+      <span class="brand-pill">VOL. 08</span>
+      <span class="brand-name">OFF GRID / CURATED ESCAPES</span>
+    </div>
+
+    <nav class="nav-switcher" aria-label="Experience switcher">
+      <button class="nav-tab active" data-target="section-expedition" id="btn-tab-expedition">
+        <span class="tab-indicator"></span>
+        <span class="tab-icon">🏔️</span>
+        <span class="tab-label">01 / Expedition</span>
+      </button>
+      <button class="nav-tab" data-target="section-journal" id="btn-tab-journal">
+        <span class="tab-indicator"></span>
+        <span class="tab-icon">☀️</span>
+        <span class="tab-label">02 / Travel Journal</span>
+      </button>
+      <button class="nav-tab" data-target="section-stay-app" id="btn-tab-app">
+        <span class="tab-indicator"></span>
+        <span class="tab-icon">📱</span>
+        <span class="tab-label">03 / Stay App</span>
+      </button>
+    </nav>
+
+    <div class="nav-actions">
+      <!-- Ambience Generator Toggle -->
+      <button class="action-btn ambience-btn" id="ambience-toggle" title="Toggle Nature Ambience Sound">
+        <svg class="sound-icon sound-off" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M11 5L6 9H2v6h4l5 4V5z"/><line x1="23" y1="9" x2="17" y2="15"/><line x1="17" y1="9" x2="23" y2="15"/></svg>
+        <svg class="sound-icon sound-on" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"/></svg>
+        <span class="ambience-text">Ambience: Off</span>
+      </button>
+
+      <!-- Figma Specs Modal Button -->
+      <button class="action-btn figma-badge-btn" id="btn-open-specs">
+        <svg width="14" height="14" viewBox="0 0 38 57" fill="none">
+          <path d="M19 28.5C19 23.2533 23.2533 19 28.5 19C33.7467 19 38 23.2533 38 28.5C38 33.7467 33.7467 38 28.5 38C23.2533 38 19 33.7467 19 28.5Z" fill="#1ABCFE"/>
+          <path d="M0 47.5C0 42.2533 4.25329 38 9.5 38H19V47.5C19 52.7467 14.7467 57 9.5 57C4.25329 57 0 52.7467 0 47.5Z" fill="#0ACF83"/>
+          <path d="M19 0V19H28.5C33.7467 19 38 14.7467 38 9.5C38 4.25329 33.7467 0 28.5 0H19Z" fill="#FF7262"/>
+          <path d="M0 9.5C0 14.7467 4.25329 19 9.5 19H19V0H9.5C4.25329 0 0 4.25329 0 9.5Z" fill="#F24E1E"/>
+          <path d="M0 28.5C0 33.7467 4.25329 38 9.5 38H19V19H9.5C4.25329 19 0 23.2533 0 28.5Z" fill="#A259FF"/>
+        </svg>
+        <span>Figma 2004:660</span>
+      </button>
+
+      <!-- Inquire CTA -->
+      <button class="primary-pill-btn" id="btn-quick-inquire">Book Escape</button>
+    </div>
+  </header>
+
+  <!-- MAIN WRAPPER -->
+  <main class="showcase-container">
+
+    <!-- ============================================================ -->
+    <!-- SECTION 1: EXPEDITION — BEYOND THE ORDINARY (Figma Node 2004-660) -->
+    <!-- ============================================================ -->
+    <section class="section-canvas section-expedition-wrapper active-section" id="section-expedition" data-section-name="Expedition">
+      <div class="expedition-frame" id="expedition-main-frame">
+        
+        <!-- Header row -->
+        <div class="frame-subnav">
+          <div class="subnav-left">OFF GRID / CURATED ESCAPES</div>
+          <div class="subnav-right">FIELD NOTES — VOL. 08</div>
+        </div>
+
+        <!-- Hero Headline Bar -->
+        <div class="frame-hero-header">
+          <div class="hero-title-col">
+            <h1 class="hero-mega-title">BEYOND THE ORDINARY.</h1>
+          </div>
+          <div class="hero-summary-col">
+            <p class="hero-summary-text">
+              Three ways out of the everyday. Chosen for wild landscapes, local encounters and the feeling of being fully there.
+            </p>
+          </div>
+        </div>
+
+        <!-- Main Escapes 2-Column Grid -->
+        <div class="expedition-grid">
+
+          <!-- Left Column: Hero Escape 01 - Dolomites -->
+          <article class="escape-card-hero" id="card-dolomites" data-id="dolomites">
+            <div class="hero-card-meta-top">
+              <span class="meta-badge-lime">01 / ALTITUDE</span>
+              <span class="meta-coords">46°36' N / 11°43' E</span>
+            </div>
+
+            <!-- Image with interactive layer -->
+            <div class="hero-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1600&q=85" 
+                alt="Dolomites jagged mountain peak rising into mist" 
+                class="media-bg"
+                loading="eager"
+              />
+              <div class="media-gradient-overlay"></div>
+              <div class="interactive-tag-pill">
+                <span class="pulse-dot"></span>
+                <span>Click for expedition dossier</span>
+              </div>
+            </div>
+
+            <!-- Bottom Content Overlaid -->
+            <div class="hero-card-bottom-info">
+              <div class="escape-location-tag">DOLOMITES, ITALY — MOUNTAIN ADVENTURE</div>
+              <h2 class="escape-card-title">TAKE THE HIGH ROAD.</h2>
+              <p class="escape-card-desc">
+                Follow the ridgeline into a quieter world. Expert-led hikes, remote refugios and sunrise above the clouds make every step worth taking.
+              </p>
+              <div class="hero-card-footer-meta">
+                <span class="meta-pill">6 DAYS</span>
+                <span class="meta-divider">/</span>
+                <span class="meta-pill">SMALL GROUP</span>
+                <span class="meta-divider">/</span>
+                <span class="meta-pill">JUNE–SEPTEMBER</span>
+                <button class="card-action-link" aria-label="Explore Dolomites Expedition">
+                  <span>View Details</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="7" y1="17" x2="17" y2="7"/><polyline points="7 7 17 7 17 17"/></svg>
+                </button>
+              </div>
+            </div>
+          </article>
+
+          <!-- Right Column: Stacked Cards 02 & 03 -->
+          <div class="escapes-stack-right">
+
+            <!-- Card 02: Lofoten, Norway -->
+            <article class="escape-card-stacked" id="card-lofoten" data-id="lofoten">
+              <div class="stacked-card-meta-top">
+                <span class="stacked-meta-tag">02 / TIDE</span>
+                <span class="stacked-meta-location">LOFOTEN, NORWAY</span>
+              </div>
+              <div class="stacked-card-media">
+                <img 
+                  src="https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=1000&q=85" 
+                  alt="Red coastal cabin on Lofoten fjord with dramatic mountains" 
+                  class="stacked-img"
+                  loading="eager"
+                />
+                <div class="media-hover-overlay">
+                  <span>Explore Tide Retreat</span>
+                </div>
+              </div>
+              <div class="stacked-card-content">
+                <h3 class="stacked-card-title">LET THE WORLD GO QUIET.</h3>
+                <p class="stacked-card-desc">
+                  Seaside cabins, cold-water dips and empty beaches. A coastal retreat paced by the tide, not the clock.
+                </p>
+                <div class="stacked-card-footer">
+                  <span class="stacked-sub">4 DAYS / ARCTIC RETREAT / YEAR-ROUND</span>
+                  <span class="explore-arrow">↗</span>
+                </div>
+              </div>
+            </article>
+
+            <!-- Card 03: Kyoto, Japan -->
+            <article class="escape-card-stacked" id="card-kyoto" data-id="kyoto">
+              <div class="stacked-card-meta-top">
+                <span class="stacked-meta-tag">03 / AFTER HOURS</span>
+                <span class="stacked-meta-location">KYOTO, JAPAN</span>
+              </div>
+              <div class="stacked-card-media">
+                <img 
+                  src="https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&w=1000&q=85" 
+                  alt="Traditional lantern-lit wooden alleyway at night in Kyoto" 
+                  class="stacked-img"
+                  loading="eager"
+                />
+                <div class="media-hover-overlay">
+                  <span>Explore Kyoto Lanes</span>
+                </div>
+              </div>
+              <div class="stacked-card-content">
+                <h3 class="stacked-card-title">FOLLOW A DIFFERENT RHYTHM.</h3>
+                <p class="stacked-card-desc">
+                  Slip into lantern-lit lanes. Discover Kyoto through intimate tea houses, artisan studios and stories shared by locals.
+                </p>
+                <div class="stacked-card-footer">
+                  <span class="stacked-sub">5 DAYS / IMMERSIVE WALKS / SPRING & AUTUMN</span>
+                  <span class="explore-arrow">↗</span>
+                </div>
+              </div>
+            </article>
+
+          </div>
+        </div>
+
+        <!-- Bottom Running Bar -->
+        <div class="frame-bottom-bar">
+          <div class="bottom-left-tag">LESS ITINERARY. MORE INSTINCT.</div>
+          <div class="bottom-center-counter">
+            <span class="badge-dim">1312 × 886</span>
+            <span class="sep">|</span>
+            <span>NODE 2004-660</span>
+          </div>
+          <div class="bottom-right-tag">THREE ESCAPES / ONE WIDER WORLD</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 2: THE GOOD DAYS JOURNAL — A LITTLE MORE SOMEWHERE -->
+    <!-- ============================================================ -->
+    <section class="section-canvas section-journal-wrapper" id="section-journal" data-section-name="Journal">
+      <div class="journal-frame">
+        
+        <!-- Journal Editorial Header -->
+        <header class="journal-header">
+          <div class="journal-header-left">
+            <div class="journal-eyebrow">THE GOOD DAYS JOURNAL</div>
+            <h2 class="journal-title">A little more somewhere.</h2>
+          </div>
+          <div class="journal-header-right">
+            <div class="sun-icon-box">
+              <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="#7047EB" stroke-width="2" stroke-linecap="round">
+                <circle cx="12" cy="12" r="4"/>
+                <path d="M12 2v2"/><path d="M12 20v2"/><path d="m4.93 4.93 1.41 1.41"/><path d="m17.66 17.66 1.41 1.41"/><path d="M2 12h2"/><path d="M20 12h2"/><path d="m6.34 17.66-1.41 1.41"/><path d="m19.07 4.93-1.41 1.41"/>
+              </svg>
+            </div>
+            <p class="journal-header-blurb">
+              Big views. Salty hair. New favorite streets. Three handpicked escapes for your next happy chapter.
+            </p>
+          </div>
+        </header>
+
+        <!-- 3 Rounded Pastel Cards -->
+        <div class="journal-cards-list">
+
+          <!-- Card 01: Madeira (Peach Card) -->
+          <article class="journal-card card-peach" id="journal-madeira" data-id="madeira">
+            <div class="journal-card-text">
+              <div class="badge-row">
+                <span class="purple-pill-num">01</span>
+                <span class="badge-text-purple">UP FOR AN ADVENTURE</span>
+              </div>
+              <h3 class="journal-card-headline">Chase your mountain high.</h3>
+              <p class="journal-card-summary">
+                Walk above the clouds, wander fern-lined trails and stop for a picnic with a very big view. Madeira brings the adventure; we bring the local know-how.
+              </p>
+              <div class="journal-tagline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 16v-2.38C4 11.5 7 11 9 11s5 .5 5 2.62V16"/><path d="M2 16h14"/><path d="M5 21h8"/><path d="M16 16v-2.38C16 11.5 19 11 21 11s3 .5 3 2.62V16"/></svg>
+                <span>Boots on · 5 days · A guide who knows the good spots</span>
+              </div>
+            </div>
+            <div class="journal-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=800&q=85" 
+                alt="Hikers walking along Madeira volcanic ridge above clouds" 
+                class="journal-img"
+              />
+              <span class="location-pill-white">Madeira, Portugal</span>
+            </div>
+          </article>
+
+          <!-- Card 02: Milos (Lagoon Aqua Card) -->
+          <article class="journal-card card-aqua" id="journal-milos" data-id="milos">
+            <div class="journal-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?auto=format&fit=crop&w=800&q=85" 
+                alt="Greek coastal fishing village with colorful boathouses and turquoise sea" 
+                class="journal-img"
+              />
+              <span class="location-pill-white">Milos, Greece</span>
+            </div>
+            <div class="journal-card-text">
+              <div class="badge-row">
+                <span class="purple-pill-num">02</span>
+                <span class="badge-text-purple">OUT OF OFFICE, INTO THE SEA</span>
+              </div>
+              <h3 class="journal-card-headline">Do very little. Beautifully.</h3>
+              <p class="journal-card-summary">
+                A secret cove, a slow lunch, one more swim. Settle into island life with a little seaside stay and plenty of room for absolutely no plans.
+              </p>
+              <div class="journal-tagline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+                <span>Sandals on · 4 days · Your own slice of the coast</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Card 03: Lisbon (Butter Yellow Card) -->
+          <article class="journal-card card-yellow" id="journal-lisbon" data-id="lisbon">
+            <div class="journal-card-text">
+              <div class="badge-row">
+                <span class="purple-pill-num">03</span>
+                <span class="badge-text-purple">TAKE THE SCENIC SIDE STREET</span>
+              </div>
+              <h3 class="journal-card-headline">Get lost. Find your people.</h3>
+              <p class="journal-card-summary">
+                Follow the tiles, taste the custard tarts and meet the makers. Our Lisbon walks swap the checklist for neighborhood stories and unexpected little discoveries.
+              </p>
+              <div class="journal-tagline">
+                <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+                <span>Curiosity on · 3 days · Local walks & delicious detours</span>
+              </div>
+            </div>
+            <div class="journal-card-media">
+              <img 
+                src="https://images.unsplash.com/photo-1509840841025-9088ba78a826?auto=format&fit=crop&w=800&q=85" 
+                alt="Iconic yellow tram navigating steep cobbled Lisbon alley" 
+                class="journal-img"
+              />
+              <span class="location-pill-white">Lisbon, Portugal</span>
+            </div>
+          </article>
+
+        </div>
+
+        <!-- Journal Footer -->
+        <footer class="journal-footer">
+          <div class="journal-footer-left">Thoughtfully picked. Joyfully explored.</div>
+          <a href="#section-expedition" class="journal-footer-link" id="journal-cta-link">
+            <span>3 places to make your own</span>
+            <span class="arrow-up-right">↗</span>
+          </a>
+        </footer>
+
+      </div>
+    </section>
+
+    <!-- ============================================================ -->
+    <!-- SECTION 3: STAY APP — INTERACTIVE MOBILE SIMULATOR -->
+    <!-- ============================================================ -->
+    <section class="section-canvas section-app-wrapper" id="section-stay-app" data-section-name="StayApp">
+      <div class="app-showcase-container">
+        
+        <!-- App Showcase Intro Header -->
+        <div class="app-intro-header">
+          <span class="app-kicker">COMPANION MOBILE EXPERIENCE</span>
+          <h2 class="app-headline">Find your next stay. Book in seconds.</h2>
+          <p class="app-subhead">
+            Interactive simulation of the Figma mobile stay application. Test searching properties, inspecting hotel details, selecting dates, and checking your live trip schedule.
+          </p>
+
+          <!-- Screen Switcher Pills -->
+          <div class="phone-screen-controls" role="tablist">
+            <button class="phone-ctrl-btn active" data-screen="screen-home" id="btn-phone-home">
+              <span>01. Home</span>
+            </button>
+            <button class="phone-ctrl-btn" data-screen="screen-detail" id="btn-phone-detail">
+              <span>02. Property Detail</span>
+            </button>
+            <button class="phone-ctrl-btn" data-screen="screen-schedule" id="btn-phone-schedule">
+              <span>03. Schedule</span>
+              <span class="badge-notification" id="schedule-badge">2</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Phone Device Frame -->
+        <div class="device-phone-wrapper">
+          <div class="device-phone">
+            
+            <!-- Dynamic Island / Speaker Notch -->
+            <div class="phone-notch">
+              <div class="speaker"></div>
+              <div class="camera"></div>
+            </div>
+
+            <!-- Status Bar -->
+            <div class="phone-status-bar">
+              <span class="status-time">9:41</span>
+              <div class="status-icons">
+                <svg width="14" height="10" viewBox="0 0 14 10" fill="currentColor"><path d="M1 8.5a1 1 0 011-1h1a1 1 0 011 1v1a1 1 0 01-1 1H2a1 1 0 01-1-1v-1zm4-3a1 1 0 011-1h1a1 1 0 011 1v4a1 1 0 01-1 1H6a1 1 0 01-1-1v-4zm4-2a1 1 0 011-1h1a1 1 0 011 1v6a1 1 0 01-1 1h-1a1 1 0 01-1-1v-6zm4-3a1 1 0 011-1h1a1 1 0 011 1v9a1 1 0 01-1 1h-1a1 1 0 01-1-1V.5z"/></svg>
+                <svg width="12" height="10" viewBox="0 0 12 10" fill="currentColor"><path d="M6 2.5a7.96 7.96 0 00-5.66 2.34l-.34.34 6 6 6-6-.34-.34A7.96 7.96 0 006 2.5z"/></svg>
+                <div class="battery-icon">
+                  <div class="battery-level"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- ========================= -->
+            <!-- PHONE SCREEN 1: HOME -->
+            <!-- ========================= -->
+            <div class="phone-screen-view active-view" id="screen-home">
+              
+              <!-- Greeting & Header -->
+              <div class="screen-header-row">
+                <div class="user-greeting">
+                  <div class="greet-sub">Good morning, Alex</div>
+                  <h3 class="greet-title">Find your next stay.</h3>
+                </div>
+                <button class="icon-round-btn notification-btn" aria-label="Notifications">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+                  <span class="red-dot"></span>
+                </button>
+              </div>
+
+              <!-- Search Bar -->
+              <div class="phone-search-bar">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#8E8E93" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+                <input type="text" placeholder="City, hotel or destination" class="search-input-field" id="hotel-search-input" />
+                <button class="filter-icon-btn" aria-label="Filter stays">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><line x1="4" y1="21" x2="4" y2="14"/><line x1="4" y1="10" x2="4" y2="3"/><line x1="12" y1="21" x2="12" y2="12"/><line x1="12" y1="8" x2="12" y2="3"/><line x1="20" y1="21" x2="20" y2="16"/><line x1="20" y1="12" x2="20" y2="3"/><line x1="1" y1="14" x2="7" y2="14"/><line x1="9" y1="8" x2="15" y2="8"/><line x1="17" y1="16" x2="23" y2="16"/></svg>
+                </button>
+              </div>
+
+              <!-- Filter Location Pills -->
+              <div class="city-chips-carousel">
+                <button class="city-chip active" data-city="Amsterdam">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"/></svg>
+                  <span>Amsterdam</span>
+                </button>
+                <button class="city-chip" data-city="Paris">Paris</button>
+                <button class="city-chip" data-city="London">London</button>
+                <button class="city-chip" data-city="Kyoto">Kyoto</button>
+              </div>
+
+              <!-- Nearby You Section -->
+              <div class="app-section-header">
+                <span class="section-title">Nearby you</span>
+                <button class="see-all-link">See all</button>
+              </div>
+              <div class="app-nearby-sub">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><polygon points="3 11 22 2 13 21 11 13 3 11"/></svg>
+                <span>Amsterdam, Netherlands</span>
+              </div>
+
+              <!-- Nearby Stays Horizontal Scroll -->
+              <div class="horizontal-stays-scroll">
+                
+                <!-- Stay 1: The Hoxton -->
+                <div class="stay-thumb-card" id="thumb-hoxton">
+                  <div class="stay-thumb-img-box">
+                    <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=400&q=80" alt="The Hoxton canal hotel Amsterdam" />
+                    <button class="thumb-heart-btn liked" aria-label="Save hotel">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="#EF4444" stroke="#EF4444" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </button>
+                    <div class="rating-badge">★ 4.9</div>
+                  </div>
+                  <div class="stay-thumb-meta">
+                    <div class="stay-name">The Hoxton</div>
+                    <div class="stay-loc">Canal District · 0.8 km</div>
+                    <div class="stay-price"><span class="price-val">€189</span> <span class="price-unit">/ night</span></div>
+                  </div>
+                </div>
+
+                <!-- Stay 2: Pulitzer Amsterdam -->
+                <div class="stay-thumb-card" id="thumb-pulitzer">
+                  <div class="stay-thumb-img-box">
+                    <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=400&q=80" alt="Pulitzer Amsterdam historic courtyard hotel" />
+                    <button class="thumb-heart-btn" aria-label="Save hotel">
+                      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    </button>
+                    <div class="rating-badge">★ 4.8</div>
+                  </div>
+                  <div class="stay-thumb-meta">
+                    <div class="stay-name">Pulitzer Amsterdam</div>
+                    <div class="stay-loc">Jordaan · 1.2 km</div>
+                    <div class="stay-price"><span class="price-val">€245</span> <span class="price-unit">/ night</span></div>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Popular Stays Section -->
+              <div class="app-section-header">
+                <span class="section-title">Popular stays</span>
+                <button class="see-all-link">See all</button>
+              </div>
+
+              <div class="popular-stays-list">
+                <div class="popular-row-item" data-hotel="hoxton">
+                  <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=150&q=80" alt="The Hoxton bedroom" class="popular-row-img" />
+                  <div class="popular-row-info">
+                    <div class="row-top">
+                      <span class="row-name">The Hoxton</span>
+                      <span class="row-rating">★ 4.9</span>
+                    </div>
+                    <div class="row-district">Canal District, Amsterdam</div>
+                    <div class="row-price">€189 <span class="dim">/ night</span></div>
+                  </div>
+                </div>
+
+                <div class="popular-row-item" data-hotel="pulitzer">
+                  <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&w=150&q=80" alt="Pulitzer courtyard" class="popular-row-img" />
+                  <div class="popular-row-info">
+                    <div class="row-top">
+                      <span class="row-name">Pulitzer Amsterdam</span>
+                      <span class="row-rating">★ 4.8</span>
+                    </div>
+                    <div class="row-district">Jordaan, Amsterdam</div>
+                    <div class="row-price">€245 <span class="dim">/ night</span></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- ========================= -->
+            <!-- PHONE SCREEN 2: PROPERTY DETAIL -->
+            <!-- ========================= -->
+            <div class="phone-screen-view" id="screen-detail">
+              
+              <!-- Nav Bar Inside Detail -->
+              <div class="detail-nav-bar">
+                <button class="icon-round-btn btn-back-home" id="btn-back-to-home" aria-label="Go back">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="15 18 9 12 15 6"/></svg>
+                </button>
+                <span class="detail-nav-title">Hotel details</span>
+                <div class="detail-nav-actions">
+                  <button class="icon-round-btn" aria-label="Share">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/></svg>
+                  </button>
+                  <button class="icon-round-btn" aria-label="Save">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="#EF4444" stroke="#EF4444" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                  </button>
+                </div>
+              </div>
+
+              <!-- Scrollable Content of Detail -->
+              <div class="detail-scrollable">
+                <!-- Hero Photo with Counter -->
+                <div class="detail-hero-box">
+                  <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=600&q=80" alt="The Hoxton Amsterdam Herengracht canal facade" class="detail-hero-img" id="detail-main-img" />
+                  <div class="photo-counter-badge">
+                    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M21 19V5c0-1.1-.9-2-2-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2zM8.5 13.5l2.5 3.01L14.5 12l4.5 6H5l3.5-4.5z"/></svg>
+                    <span>1/12</span>
+                  </div>
+                </div>
+
+                <!-- Title & Location -->
+                <div class="detail-meta-block">
+                  <div class="detail-title-line">
+                    <h3 class="detail-hotel-name">The Hoxton</h3>
+                    <div class="detail-rating-pill">★ 4.9 <span class="reviews-count">(284)</span></div>
+                  </div>
+                  <div class="detail-address-line">
+                    <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                    <span>Herengracht 255, Amsterdam</span>
+                    <button class="map-link-btn">Map</button>
+                  </div>
+                  <p class="detail-desc-text">
+                    A canal-side hideaway with cozy rooms and a lively lobby, right in the heart of Amsterdam. <button class="read-more-btn">Read more</button>
+                  </p>
+                </div>
+
+                <!-- Amenities Grid -->
+                <div class="amenities-block">
+                  <div class="block-header">
+                    <span class="block-title">Amenities</span>
+                    <button class="see-all-link">See all 12</button>
+                  </div>
+                  <div class="amenities-icons-grid">
+                    <div class="amenity-item">
+                      <div class="amenity-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M5 12.55a11 11 0 0 1 14.08 0"/><path d="M1.42 9a16 16 0 0 1 21.16 0"/><path d="M8.53 16.11a6 6 0 0 1 6.95 0"/><line x1="12" y1="20" x2="12.01" y2="20"/></svg>
+                      </div>
+                      <span>Free Wi-Fi</span>
+                    </div>
+                    <div class="amenity-item">
+                      <div class="amenity-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M18 8h1a4 4 0 0 1 0 8h-1"/><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                      </div>
+                      <span>Breakfast</span>
+                    </div>
+                    <div class="amenity-item">
+                      <div class="amenity-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M18 2v20"/><path d="M14 2v6a3 3 0 0 0 6 0V2"/><path d="M4 2v20"/><path d="M4 10h4a2 2 0 0 0 2-2V2"/></svg>
+                      </div>
+                      <span>Restaurant</span>
+                    </div>
+                    <div class="amenity-item">
+                      <div class="amenity-icon-box">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><path d="M18 20V6a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v14"/><path d="M2 20h20"/><circle cx="14" cy="12" r="1"/></svg>
+                      </div>
+                      <span>24h service</span>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- A Closer Look Photos -->
+                <div class="closer-look-block">
+                  <div class="block-header">
+                    <span class="block-title">A closer look</span>
+                    <button class="see-all-link">All photos</button>
+                  </div>
+                  <div class="gallery-3-thumbs">
+                    <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=200&q=80" alt="Hoxton cozy room" />
+                    <img src="https://images.unsplash.com/photo-1578683010236-d716f9a3f461?auto=format&fit=crop&w=200&q=80" alt="Hoxton bar lounge" />
+                    <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=200&q=80" alt="Canal reflection view" />
+                  </div>
+                </div>
+
+                <!-- Date Picker Dropdown Pill -->
+                <div class="date-guests-pill-selector">
+                  <div class="calendar-pill-left">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#2563EB" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                    <div class="dates-text-group">
+                      <span class="dates-primary">Oct 16 – 19, 2026</span>
+                      <span class="dates-sub">3 nights · 2 guests · 1 room</span>
+                    </div>
+                  </div>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="#8E8E93" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                </div>
+              </div>
+
+              <!-- Fixed Bottom Booking Action Bar -->
+              <div class="detail-bottom-action-bar">
+                <div class="price-calc-col">
+                  <div class="price-headline"><span class="price-val">€189</span> <span class="unit">/ night</span></div>
+                  <div class="price-sub">€567 total · includes taxes</div>
+                </div>
+                <button class="btn-book-stay" id="btn-trigger-book">
+                  <span>Book a stay</span>
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                </button>
+              </div>
+
+            </div>
+
+            <!-- ========================= -->
+            <!-- PHONE SCREEN 3: SCHEDULE -->
+            <!-- ========================= -->
+            <div class="phone-screen-view" id="screen-schedule">
+              
+              <!-- Schedule Top Bar -->
+              <div class="schedule-header-row">
+                <div>
+                  <h3 class="schedule-page-title">Your schedule</h3>
+                  <div class="schedule-page-sub">Good stays, great days ahead.</div>
+                </div>
+                <button class="icon-round-btn add-btn" aria-label="Add new stay">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+                </button>
+              </div>
+
+              <!-- Segmented Tabs: Upcoming vs Past Stays -->
+              <div class="segmented-pills">
+                <button class="seg-btn active" id="btn-seg-upcoming">Upcoming</button>
+                <button class="seg-btn" id="btn-seg-past">Past stays</button>
+              </div>
+
+              <!-- Interactive Month Calendar -->
+              <div class="phone-calendar-card">
+                <div class="cal-nav-row">
+                  <span class="cal-month-title">October 2026</span>
+                  <div class="cal-arrows">
+                    <button class="cal-arrow-btn" aria-label="Previous month">‹</button>
+                    <button class="cal-arrow-btn" aria-label="Next month">›</button>
+                  </div>
+                </div>
+                <!-- Weekday Headers -->
+                <div class="cal-weekdays">
+                  <span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span><span>S</span>
+                </div>
+                <!-- Days Grid -->
+                <div class="cal-days-grid" id="cal-days">
+                  <!-- Week 1 -->
+                  <span class="day-dim">28</span><span class="day-dim">29</span><span class="day-dim">30</span>
+                  <span>1</span><span>2</span><span>3</span><span>4</span>
+                  <!-- Week 2 -->
+                  <span>5</span><span>6</span><span>7</span><span>8</span><span>9</span><span>10</span><span>11</span>
+                  <!-- Week 3 -->
+                  <span>12</span><span>13</span><span>14</span><span>15</span>
+                  <span class="day-booked booked-start">16</span>
+                  <span class="day-booked">17</span>
+                  <span class="day-booked booked-end">18</span>
+                  <!-- Week 4 -->
+                  <span class="day-booked-single">19</span>
+                  <span>20</span><span>21</span><span>22</span><span>23</span><span>24</span><span>25</span>
+                  <!-- Week 5 -->
+                  <span>26</span>
+                  <span class="day-booked booked-start">27</span>
+                  <span class="day-booked">28</span>
+                  <span class="day-booked booked-end">29</span>
+                  <span>30</span><span>31</span><span class="day-dim">1</span>
+                </div>
+                <div class="cal-legend">
+                  <span class="legend-dot"></span>
+                  <span>Your booked stays</span>
+                </div>
+              </div>
+
+              <!-- Upcoming Stays Cards List -->
+              <div class="schedule-stays-section">
+                <div class="schedule-section-header">
+                  <span class="sec-label">Upcoming stays</span>
+                  <span class="count-badge" id="schedule-count-label">2 bookings</span>
+                </div>
+
+                <!-- Booking 1: The Hoxton -->
+                <div class="booking-ticket-card">
+                  <div class="ticket-row-top">
+                    <img src="https://images.unsplash.com/photo-1512470876302-972faa2aa9a4?auto=format&fit=crop&w=140&q=80" alt="The Hoxton" class="ticket-thumb" />
+                    <div class="ticket-main-info">
+                      <span class="status-pill status-blue">CHECK-IN IN 8 DAYS</span>
+                      <div class="ticket-name">The Hoxton</div>
+                      <div class="ticket-loc">Canal District, Amsterdam</div>
+                    </div>
+                  </div>
+                  <div class="ticket-divider"></div>
+                  <div class="ticket-row-bottom">
+                    <div class="ticket-date-info">
+                      <span class="date-range">Oct 16 – 19, 2026</span>
+                      <span class="party-size">3 nights · 2 guests · 1 room</span>
+                    </div>
+                    <button class="view-booking-btn">View booking ↗</button>
+                  </div>
+                </div>
+
+                <!-- Booking 2: Pulitzer Amsterdam -->
+                <div class="booking-ticket-card">
+                  <div class="ticket-row-top">
+                    <img src="https://images.unsplash.com/photo-1534351590666-13e3e96b5017?auto=format&fit=crop&w=140&q=80" alt="Pulitzer Amsterdam" class="ticket-thumb" />
+                    <div class="ticket-main-info">
+                      <span class="status-pill status-green">CONFIRMED</span>
+                      <div class="ticket-name">Pulitzer Amsterdam</div>
+                      <div class="ticket-loc">Jordaan, Amsterdam</div>
+                    </div>
+                  </div>
+                  <div class="ticket-divider"></div>
+                  <div class="ticket-row-bottom">
+                    <div class="ticket-date-info">
+                      <span class="date-range">Oct 27 – 29, 2026</span>
+                      <span class="party-size">2 nights · 2 guests · 1 room</span>
+                    </div>
+                    <button class="view-booking-btn">View booking ↗</button>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- ========================= -->
+            <!-- PHONE BOTTOM NAVIGATION BAR -->
+            <!-- ========================= -->
+            <nav class="phone-bottom-nav">
+              <button class="phone-nav-item active" data-screen="screen-home" id="pnav-explore">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/></svg>
+                <span>Explore</span>
+              </button>
+              <button class="phone-nav-item" data-screen="screen-home" id="pnav-saved">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                <span>Saved</span>
+              </button>
+              <button class="phone-nav-item" data-screen="screen-schedule" id="pnav-schedule">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+                <span>Schedule</span>
+              </button>
+              <button class="phone-nav-item" data-screen="screen-home" id="pnav-profile">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+                <span>Profile</span>
+              </button>
+            </nav>
+
+            <!-- Home Indicator Bar -->
+            <div class="phone-home-indicator"></div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============================================================ -->
+  <!-- MODAL 1: EXPEDITION DOSSIER DRAWER (INTERACTIVE DETAILS) -->
+  <!-- ============================================================ -->
+  <aside class="dossier-drawer" id="dossier-drawer" aria-hidden="true">
+    <div class="drawer-backdrop" id="drawer-backdrop"></div>
+    <div class="drawer-panel">
+      
+      <!-- Drawer Top Bar -->
+      <div class="drawer-header">
+        <div class="drawer-kicker" id="dossier-kicker">01 / ALTITUDE — FIELD DOSSIER</div>
+        <button class="drawer-close-btn" id="dossier-close-btn" aria-label="Close dossier">✕</button>
+      </div>
+
+      <!-- Drawer Content -->
+      <div class="drawer-scroll-body">
+        
+        <!-- Media Hero -->
+        <div class="drawer-media-box">
+          <img src="" alt="" id="dossier-img" class="drawer-img" />
+          <div class="dossier-img-badge" id="dossier-badge">DOLOMITES, ITALY</div>
+        </div>
+
+        <!-- Headline & Summary -->
+        <div class="drawer-title-group">
+          <h2 class="drawer-title" id="dossier-title">TAKE THE HIGH ROAD.</h2>
+          <p class="drawer-desc" id="dossier-desc">
+            Follow the ridgeline into a quieter world. Expert-led hikes, remote refugios and sunrise above the clouds make every step worth taking.
+          </p>
+        </div>
+
+        <!-- Coordinates & Telemetry Box -->
+        <div class="telemetry-box">
+          <div class="telem-item">
+            <span class="telem-label">COORDINATES</span>
+            <span class="telem-val" id="dossier-coords">46°36' N / 11°43' E</span>
+          </div>
+          <div class="telem-item">
+            <span class="telem-label">DURATION</span>
+            <span class="telem-val" id="dossier-duration">6 Days / 5 Nights</span>
+          </div>
+          <div class="telem-item">
+            <span class="telem-label">GROUP SIZE</span>
+            <span class="telem-val" id="dossier-group">Max 8 Explorers</span>
+          </div>
+          <div class="telem-item">
+            <span class="telem-label">SEASON</span>
+            <span class="telem-val" id="dossier-season">June — September</span>
+          </div>
+        </div>
+
+        <!-- Day-by-Day Expedition Briefing -->
+        <div class="drawer-section">
+          <h4 class="drawer-section-heading">DAY-BY-DAY ITINERARY</h4>
+          <div class="itinerary-timeline" id="dossier-itinerary">
+            <!-- Dynamically populated via main.js -->
+          </div>
+        </div>
+
+        <!-- Expedition Gear & Refugios -->
+        <div class="drawer-section">
+          <h4 class="drawer-section-heading">ESSENTIAL GEAR CHECKLIST</h4>
+          <ul class="gear-checklist" id="dossier-gear">
+            <!-- Dynamically populated -->
+          </ul>
+        </div>
+
+        <!-- Live Ambient Audio Controls for this escape -->
+        <div class="drawer-audio-card">
+          <div class="audio-card-left">
+            <span class="audio-card-title">Destination Soundscape</span>
+            <span class="audio-card-sub" id="dossier-sound-label">Alpine Ridge Breeze (Synthesized)</span>
+          </div>
+          <button class="audio-play-pill" id="dossier-sound-toggle">
+            <span class="icon">▶</span>
+            <span class="txt">Play Audio</span>
+          </button>
+        </div>
+
+        <!-- Booking Inquiry Form inside Drawer -->
+        <div class="drawer-inquiry-box">
+          <h4 class="drawer-section-heading">REQUEST AN ESCAPE SPOT</h4>
+          <p class="inquiry-sub">Departures are strictly limited to preserve pristine trail tranquility.</p>
+          <form class="inquiry-form" id="dossier-inquiry-form">
+            <div class="form-row">
+              <input type="text" placeholder="Your Name" required class="form-input" id="inq-name" />
+              <input type="email" placeholder="Your Email" required class="form-input" id="inq-email" />
+            </div>
+            <div class="form-row">
+              <select class="form-input" id="inq-month">
+                <option value="june-2027">June 2027 (Early Bloom)</option>
+                <option value="july-2027">July 2027 (Peak Ridgewalk)</option>
+                <option value="aug-2027">August 2027 (Summer Starlight)</option>
+                <option value="sept-2027">September 2027 (Golden Larch)</option>
+              </select>
+            </div>
+            <button type="submit" class="submit-inquiry-btn">
+              <span>Submit Spot Reservation Request</span>
+              <span>→</span>
+            </button>
+          </form>
+          <div class="inquiry-success-msg" id="inquiry-success" style="display: none;">
+            ✓ Your reservation request for Field Notes Vol. 08 has been logged. Our expedition director will be in touch within 24 hours.
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </aside>
+
+  <!-- ============================================================ -->
+  <!-- MODAL 2: FIGMA COMMUNITY SPECIFICATIONS & SYSTEM INSPECTOR -->
+  <!-- ============================================================ -->
+  <div class="specs-modal" id="specs-modal" aria-hidden="true">
+    <div class="modal-backdrop" id="modal-backdrop"></div>
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-pill">FIGMA COMMUNITY</span>
+          <h3 class="modal-title">Portifolio Design System & Specs</h3>
+        </div>
+        <button class="modal-close-btn" id="modal-close-btn">✕</button>
+      </div>
+
+      <div class="modal-body">
+        <p class="modal-intro">
+          This website is built directly from the public Figma project <strong>"portifolio (Community)"</strong>, specifically node <code>2004-660</code> (<strong>Expedition — Beyond the ordinary</strong>, dimensions <code>1312 × 886</code>), accompanied by the <strong>Good Days Journal</strong> and the <strong>Stay Companion App</strong>.
+        </p>
+
+        <div class="specs-grid">
+          <div class="spec-card">
+            <h4>Design Tokens & Colors</h4>
+            <div class="palette-swatches">
+              <div class="swatch" style="background: #0C0E11;" title="Dark Charcoal #0C0E11"></div>
+              <div class="swatch" style="background: #D2FF52;" title="Neon Lime #D2FF52"></div>
+              <div class="swatch" style="background: #FAF7F2; border: 1px solid #ddd;" title="Journal Cream #FAF7F2"></div>
+              <div class="swatch" style="background: #FEDCD0;" title="Peach Coral #FEDCD0"></div>
+              <div class="swatch" style="background: #D8F0F7;" title="Lagoon Cyan #D8F0F7"></div>
+              <div class="swatch" style="background: #FDF1B8;" title="Butter Gold #FDF1B8"></div>
+              <div class="swatch" style="background: #2563EB;" title="Primary Blue #2563EB"></div>
+            </div>
+          </div>
+
+          <div class="spec-card">
+            <h4>Typography Hierarchy</h4>
+            <div class="spec-row"><span>Display:</span> <strong>Bebas Neue / Barlow Condensed</strong></div>
+            <div class="spec-row"><span>Editorial:</span> <strong>Fraunces / Serif</strong></div>
+            <div class="spec-row"><span>Interface:</span> <strong>Plus Jakarta Sans</strong></div>
+            <div class="spec-row"><span>Metadata:</span> <strong>JetBrains Mono</strong></div>
+          </div>
+
+          <div class="spec-card">
+            <h4>Figma Target Node</h4>
+            <div class="spec-row"><span>Node ID:</span> <code>2004-660</code></div>
+            <div class="spec-row"><span>Frame:</span> <code>Expedition — Beyond the ordinary</code></div>
+            <div class="spec-row"><span>Canvas Size:</span> <code>1312px × 886px</code></div>
+          </div>
+
+          <div class="spec-card">
+            <h4>Original Project Link</h4>
+            <a href="https://www.figma.com/design/WZsrMDeW2ZoFIHkKOIGdlR/portifolio--Community-?node-id=2004-660&t=lkCA4rd0i9VVuFAX-1" target="_blank" rel="noopener noreferrer" class="figma-direct-link">
+              <span>Open in Figma</span>
+              <span>↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification System -->
+  <div class="toast-container" id="toast-container"></div>
+
+  <!-- Script Module -->
+  <script type="module" src="./main.js"></script>
+</body>
+</html>
